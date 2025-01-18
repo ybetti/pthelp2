@@ -54,7 +54,7 @@
     }
 
     function isOrangeOrYellow(r, g, b) {
-      return (r > 100 && g > 40 && b < 100); 
+      return (red > 100 && red > green * 2 && red > blue * 2 && green < 50 && blue < 50); 
     }
 
     let previousFrame = null;
